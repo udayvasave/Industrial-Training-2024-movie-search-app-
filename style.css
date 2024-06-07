@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #272727;
+}
+
+.navbar {
+    margin:0rem 5rem;
+    padding: 1.7rem 0rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navigationLinks ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navigationLinks ul li {
+    padding: 0rem 1rem;
+    list-style: none;
+}
+
+.navigationLinks ul li a {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.brandName span {
+    font-size: 1.3rem;
+    font-weight:600;
+    color: #ffffff;
+}
+
+.line{
+    height: 1px;
+    background-color: grey;
+    /* width: 100%; */
+    /* padding-right: 1rem; */
+    
+}
+
+.horizontalLine{
+    margin: 0rem 5rem;
+    padding-right: 1rem;
+}
+
+.mainHeading{
+    margin: 2rem 5rem;
+}
+
+.mainHeading h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.ImageBioConnect{
+    margin: 0rem 5rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.image, .biography, .connect{
+    padding: 0rem 1rem;
+}
+
+.biography{
+padding: 0rem 2rem;
+display: flex;
+align-items:flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 1rem;
+}
+
+.connectIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.connectIcons img {
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+}
+
+.connectHeading h3 {
+    color: #ffffff;
+}
+
+.image img {
+    width: 250px;
+    height: 150px;
+}
