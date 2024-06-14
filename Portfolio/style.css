@@ -197,3 +197,24 @@ padding-bottom: 1rem;
     margin: 0rem 5rem;
     border-radius: 5px;
 }
+
+.skills{
+    margin:5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.skillSet{
+    background-color: #323443;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.Head-forntendDev{
+   padding-bottom: 1rem; 
+}
+.skillsDescription{
+    padding-bottom: 1rem;
+}
