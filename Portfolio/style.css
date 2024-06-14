@@ -66,8 +66,9 @@ body{
 .ImageBioConnect{
     margin: 0rem 5rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     color: #ffffff;
+    align-items: flex-start;
 }
 
 .image, .biography, .connect{
@@ -101,4 +102,54 @@ gap: 1rem;
 .image img {
     width: 250px;
     height: 150px;
+}
+
+.image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.Container2{
+margin:5rem;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 1.5rem;
+color: #fff;
+}
+
+.mofon {
+  color: #46c0d9;
+  font-weight: 600;
+}
+.frontend{
+    color:#3bf686;
+    font-weight: 600;
+}
+
+.WhatIDO h1{
+padding-bottom: 1rem;
+}
+
+.webdevContainer{
+    background-color: #323443;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.img-webDevCon{
+    position: absolute;
+    right: 7rem;
+    top: -2rem;
+}
+.head-webdevCon{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+.WhatIDO p {
+    padding-right: 3rem;
 }
