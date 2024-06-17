@@ -19,6 +19,14 @@ body{
     align-items: center;
 }
 
+.hamburger img {
+width: 20px;
+height: 20px;
+position: absolute;
+top: 1.8rem;
+/* right: ; */
+display: none;
+}
 .navigationLinks ul {
     display: flex;
     justify-content:center;
@@ -166,6 +174,9 @@ padding-bottom: 1rem;
     gap: 1rem !important;
 }
 
+.project h2 {
+    margin-bottom: 1rem;
+}
 .project-subCon-1{
     margin-bottom: 1rem;
 }
@@ -205,22 +216,186 @@ padding-bottom: 1rem;
 }
 
 .skills{
-    margin:5rem;
+    margin:1rem 5rem 5rem 5rem;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
+
+.skillHeading{
+margin: 3rem 5rem 1rem 5rem;
+color: #fff;
+font-size: 3rem;
+}
 .skillSet{
     background-color: #323443;
     padding: 1rem;
     border-radius: 5px;
+   
 }
 
+.skillSet img {
+    /* width: 3rem; */
+    height: 2.8rem !important;
+padding-right: 1rem;
+}
+.flutterICon{
+ width: 100% !important;
+}
 .Head-forntendDev{
    padding-bottom: 1rem; 
 }
 .skillsDescription{
     padding-bottom: 1rem;
 }
+
+.contact{
+    margin: 5rem;
+    color: #fff;
+}
+.contact h1 {
+    font-size: 3rem;
+}
+.project h1{
+    font-size: 3rem;
+}
+.Contact-mainCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+}
+
+.socials,.quicklinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.socials a img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.quicklinks a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.quicklinks h4 {
+    white-space:nowrap;
+}
+.links-Socials{
+display: flex;
+gap: 5rem;
+}
+/* ///////////////////////////////////// media queries ///////////////////////////////////////// */
+
+@media only screen and (max-width:800px){
+    .navigationLinks ul {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #323443;
+        width: 100vw !important;
+        position: absolute;
+        left: -100%;
+    }
+    .navbar {
+        margin:0rem 1rem;
+        padding: 1.7rem 0rem;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ImageBioConnect{
+        margin: 0rem 1rem;
+        display: flex;
+        justify-content: flex-start;
+        color: #ffffff;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    .mainHeading h1{
+        margin: 0rem 1rem;
+    }
+    .Container2{
+        margin:1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+        color: #fff;
+        flex-direction: column;
+        }
+
+        .project-subCon-1,.project-subCon-2{
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .projectImage img{
+            width: 100%;
+            height: auto;
+            padding: 1rem;
+            background-color: #323443;
+            border-radius: 5px;
+        }
+
+        .project{
+            margin: 5rem 1rem 1.5rem 1rem;
+            color: #fff;
+            gap: 1rem !important;
+        }
+
+        .skills{
+            margin:1rem 1rem 5rem 1rem;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-direction: column;
+        }
+        .contact{
+            margin: 1rem;
+            color: #fff;
+        }
+        .Contact-mainCon{
+            display: flex;
+            align-items:flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .links-Socials{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .mainHeading{
+            margin: 2rem 1rem;
+        }
+}
+
