@@ -23,9 +23,15 @@ body{
 width: 20px;
 height: 20px;
 position: absolute;
-top: 1.8rem;
-/* right: ; */
+top: 0.3rem;
+right: 1rem;
+/* display: none; */
+}
+.bars{
 display: none;
+}
+.close{
+    display: none;
 }
 .navigationLinks ul {
     display: flex;
@@ -312,17 +318,19 @@ gap: 5rem;
         flex-direction: column;
         height: 100vh;
         background-color: #323443;
-        width: 100vw !important;
+        width: 100vw;
         position: absolute;
         left: -100%;
+        transition: 0.3s ease-in-out;
     }
     .navbar {
-        margin:0rem 1rem;
-        padding: 1.7rem 0rem;
+        margin:0rem 0rem;
+        padding: 0rem 0rem;
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
         align-items: center;
-        flex-direction: column;
+        flex-direction:column;
+        position: relative;
     }
     .ImageBioConnect{
         margin: 0rem 1rem;
@@ -397,5 +405,14 @@ gap: 5rem;
         .mainHeading{
             margin: 2rem 1rem;
         }
+        .bars{
+            display: block;
+            }
+          
 }
 
+@media only screen and (min-width:800px){
+    .bars, .close{
+        display: none !important;
+        }
+}
