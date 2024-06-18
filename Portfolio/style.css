@@ -33,6 +33,7 @@ display: none;
 .close{
     display: none;
 }
+
 .navigationLinks ul {
     display: flex;
     justify-content:center;
@@ -310,7 +311,7 @@ gap: 5rem;
 }
 /* ///////////////////////////////////// media queries ///////////////////////////////////////// */
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:600px){
     .navigationLinks ul {
         display: flex;
         justify-content:center;
@@ -318,10 +319,18 @@ gap: 5rem;
         flex-direction: column;
         height: 100vh;
         background-color: #323443;
-        width: 100vw;
-        position: absolute;
-        left: -100%;
-        transition: 0.3s ease-in-out;
+       width: 100vw;
+       position: absolute;
+       left: -100%;
+       transition: 0.3s ease;
+       z-index: 100000;
+    }
+
+    .navigationLinks ul li {
+        padding: 1rem 0rem;
+    }
+    .navigationLinks ul li a {
+       font-size: 2rem;
     }
     .navbar {
         margin:0rem 0rem;
@@ -405,14 +414,14 @@ gap: 5rem;
         .mainHeading{
             margin: 2rem 1rem;
         }
+      
         .bars{
             display: block;
             }
-          
 }
 
 @media only screen and (min-width:800px){
-    .bars, .close{
+    .bars.close{
         display: none !important;
         }
 }

@@ -1,23 +1,18 @@
-const hambuger = document.querySelector('.bars');
-const cross = document.querySelector('.close');
-const ul = document.querySelector('.navUL');
 
+const hamburger = document.querySelector('.bars');
+const close = document.querySelector('.close');
 
+const ul =document.querySelector('.navUL');
 
-
-hambuger.addEventListener('click',()=>{
-    hambuger.style.display = 'none';
-    cross.style.display= 'block';
-   ul.style.left='0%';
-
+hamburger.addEventListener('click',()=>{
+    // console.log('Clicked');
+    hamburger.style.display ='none';
+    close.style.display ='block';
+    ul.style.left = '0%';
 })
 
-cross.addEventListener('click',()=>{
-    // console.log('worlks');
-    cross.style.display= 'none';
-    hambuger.style.display = 'block';
-    ul.style.left='-150%';
+close.addEventListener('click',()=>{
+    close.style.display ='none';
+    hamburger.style.display ='block';
+    ul.style.left = '-100%';
 })
-
-
-
