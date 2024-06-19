@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    height: 80px;
+}
+
+.listItems ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.listItems ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.brandName {
+padding-left: 2rem;
+}
+
+.heroImage{
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1549893072-4bc678117f45?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.textinHeroSection h1{
+font-size: 3.5rem;
+padding: 1rem 0rem;
+/* color: #fff; */
+
+
+}
+
+.textinHeroSection{
+    padding: 5rem 2rem 2rem 2.5rem;
+    text-align: end;
+}
+
+.textinHeroSection p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    /* color: #fff; */
+}
+
+.textinHeroSection input{
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs{
+/* background-color: #fff; */
+/* width: 20rem; */
+}
+
+.btn{
+padding: 0.7rem;
+border-radius: 10px;
+border: none;
+}
+
+.textBelowInputs{
+    padding: 1rem;
+    /* color: #fff; */
+}
+
+/* ///////////////////////////////////////////////////// section2 ////////////////////////////////// */
+
+.section2{
+    margin: 5rem;
+}
+
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Card1{
+    height: 20rem;
+    width: 20rem;
+    /* background-color: lightblue; */
+    background-color: rgb(210, 203, 203);
+    border-radius: 5px;
+}
+.Card2{
+    height: 20rem;
+    width: 20rem;
+    /* background-color: lightgoldenrodyellow; */
+    background-color: rgb(210, 203, 203);
+    border-radius: 5px;
+}
+
+.Card3{
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(210, 203, 203);
+    border-radius: 5px;
+}
+
+.section2 p{
+margin: 1rem 0rem;
+}
+
+.Card1 img, .Card2 img, .Card3 img{
+    width: 100%;
+    height: 16rem;
+}
+
+.titleText{
+    margin: 0 !important;
+    padding-top: 0.5rem;
+}
+
+.Card1 h3, .Card2 h3, .Card3 h3{
+    padding-top: 0.5rem;
+}
+
+.descrption{
+    padding-left: 1rem;
+}
+/* //////////////////////////////// section 3 //////////////////////////////////////////////////////// */
+
+.section3{
+    background-image: url('https://images.unsplash.com/photo-1535063406830-27dfae54262a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 25rem;
+    margin: 5rem;
+    background-size: cover;
+    background-position:center;
+   
+    /* opacity: 0.9; */
+}
+.card-section3{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    position: relative;
+}
+.card1-section3, .card2-section3, .card3-section3{
+    width: 15rem;
+    height: 15rem;
+    background-color: #c0afaf;
+    border-radius: 10px;
+}
+
+.card1-section3{
+    position: absolute;
+    top:15rem;
+    left: 10%;
+    padding: 2rem;
+}
+
+.card2-section3{
+    position: absolute;
+    top:15rem;
+    left: 39.5%;
+    padding: 2rem;
+}
+
+.card3-section3{
+    position: absolute;
+    top:15rem;
+    right: 10%;
+    padding: 2rem 2rem 1rem 2rem;
+    
+}
+
+.card1-section3 img, .card2-section3 img, .card3-section3 img {
+    width: 4rem;
+}
+
+.card1-section3 h5, .card2-section3 h5, .card3-section3 h5{
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+} 
+
+.card1-section3 p, .card2-section3 p, .card3-section3 p{
+    margin-bottom: 0.5rem !important;
+    /* padding: 1rem; */
+}
+
+.anchortage{
+    margin-top: 1rem;
+}
