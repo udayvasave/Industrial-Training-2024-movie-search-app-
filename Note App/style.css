@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #48cae4;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.add{
+    background-color: #28292b;
+    color: #fff;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addIcon{
+    width: 30px;
+    height: 30px;
+    padding-right: 0.3rem;
+}
+
+.note{
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.tools button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #28292b;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+
+}
+.edit,.delete{
+padding: 0.5rem 1rem;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.note textarea{
+    outline: none;
+    font-size: 1.3rem;
+    width:100%;
+    height: 400px;
+    padding: 1rem;
+}
+
+.hidden{
+    display: none;
+}
